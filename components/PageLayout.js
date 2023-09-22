@@ -6,24 +6,22 @@ import Header from "./Header";
 import EditForm from "./EditForm";
 import {v4 as uuidv4} from 'uuid';
 
-// const allTasks = JSON.parse(sessionStorage.getItem("All Tasks")) || [];
-
 const PageLayout = ({PageName}) => {
 
     const getInitialState = () => {
-        const todo = sessionStorage.getItem(PageName);
+        const todo = localStorage.getItem(PageName);
         return todo ? JSON.parse(todo) : [];
     }
 
     const [todos, setTodos] = useState(getInitialState);
-    const [allTasks, setAllTasks] = useState(JSON.parse(sessionStorage.getItem("All Tasks")) || getInitialState);
+    const [allTasks, setAllTasks] = useState(JSON.parse(localStorage.getItem("All Tasks")) || getInitialState);
  
     useEffect(() => {
 
-        sessionStorage.setItem("All Tasks", JSON.stringify(allTasks));
-        sessionStorage.setItem("Personal", JSON.stringify(allTasks.filter((todo) => todo.page === "Personal")))
-        sessionStorage.setItem("Work", JSON.stringify(allTasks.filter((todo) => todo.page === "Work")))
-        sessionStorage.setItem("Grocery List", JSON.stringify(allTasks.filter((todo) => todo.page === "Grocery List")))
+        localStorage.setItem("All Tasks", JSON.stringify(allTasks));
+        localStorage.setItem("Personal", JSON.stringify(allTasks.filter((todo) => todo.page === "Personal")))
+        localStorage.setItem("Work", JSON.stringify(allTasks.filter((todo) => todo.page === "Work")))
+        localStorage.setItem("Grocery List", JSON.stringify(allTasks.filter((todo) => todo.page === "Grocery List")))
     
     }, [todos, allTasks])
 
