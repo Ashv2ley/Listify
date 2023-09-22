@@ -1,10 +1,10 @@
 import React from  'react'
 import { Link } from 'react-router-dom'
 
-let allTasks = JSON.parse(sessionStorage.getItem("All Tasks")) || [];
-let personalTasks = JSON.parse(sessionStorage.getItem("Personal")) || [];
-let workTasks = JSON.parse(sessionStorage.getItem("Work")) || [];
-let groceryTasks = JSON.parse(sessionStorage.getItem("Grocery List")) || [];
+let allTasks = JSON.parse(localStorage.getItem("All Tasks")) || [];
+let personalTasks = JSON.parse(localStorage.getItem("Personal")) || [];
+let workTasks = JSON.parse(localStorage.getItem("Work")) || [];
+let groceryTasks = JSON.parse(localStorage.getItem("Grocery List")) || [];
 
 const Home = () => {
     return(
