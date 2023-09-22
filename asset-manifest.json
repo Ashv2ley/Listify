@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ashv2ley/Listify.git/static/css/main.02ddc84c.css",
+    "main.js": "/Ashv2ley/Listify.git/static/js/main.b5d31453.js",
+    "static/js/496.07ef6c5f.chunk.js": "/Ashv2ley/Listify.git/static/js/496.07ef6c5f.chunk.js",
+    "static/media/white-bkg.jpg": "/Ashv2ley/Listify.git/static/media/white-bkg.85fd669986ce2e6782b8.jpg",
+    "index.html": "/Ashv2ley/Listify.git/index.html",
+    "main.02ddc84c.css.map": "/Ashv2ley/Listify.git/static/css/main.02ddc84c.css.map",
+    "main.b5d31453.js.map": "/Ashv2ley/Listify.git/static/js/main.b5d31453.js.map",
+    "496.07ef6c5f.chunk.js.map": "/Ashv2ley/Listify.git/static/js/496.07ef6c5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02ddc84c.css",
+    "static/js/main.b5d31453.js"
+  ]
+}
