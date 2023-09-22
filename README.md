@@ -1,3 +1,6 @@
+This to do list app consist of four pages that serve as four different list. You are able to add tasks into your personal list, work list, or grocery list, and all tasks will show up on the "All Tasks" page. With each task you are able to mark it as complete (cross it out), edit it, or delete it. The number of tasks on each page/list is tracked and displayed on the homepage. You are able to change between each page/list through the dropdown bar that displays when you press the "My Lists" button.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
