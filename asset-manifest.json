@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ashv2ley/Listify.git/static/css/main.23ffca5e.css",
-    "main.js": "/Ashv2ley/Listify.git/static/js/main.b5d31453.js",
+    "main.css": "/Ashv2ley/Listify.git/static/css/main.83f81d2b.css",
+    "main.js": "/Ashv2ley/Listify.git/static/js/main.49428ae7.js",
     "static/js/496.07ef6c5f.chunk.js": "/Ashv2ley/Listify.git/static/js/496.07ef6c5f.chunk.js",
     "static/media/White-Abstract-Pictures.png": "/Ashv2ley/Listify.git/static/media/White-Abstract-Pictures.4f96ee18eec7e92e9cc3.png",
     "index.html": "/Ashv2ley/Listify.git/index.html",
-    "main.23ffca5e.css.map": "/Ashv2ley/Listify.git/static/css/main.23ffca5e.css.map",
-    "main.b5d31453.js.map": "/Ashv2ley/Listify.git/static/js/main.b5d31453.js.map",
+    "main.83f81d2b.css.map": "/Ashv2ley/Listify.git/static/css/main.83f81d2b.css.map",
+    "main.49428ae7.js.map": "/Ashv2ley/Listify.git/static/js/main.49428ae7.js.map",
     "496.07ef6c5f.chunk.js.map": "/Ashv2ley/Listify.git/static/js/496.07ef6c5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ffca5e.css",
-    "static/js/main.b5d31453.js"
+    "static/css/main.83f81d2b.css",
+    "static/js/main.49428ae7.js"
   ]
 }
